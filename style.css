@@ -27,10 +27,6 @@
 }
 
 .botoes {
-    /*background-color: aliceblue;
-
-    width: 110%;*/
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -67,3 +63,75 @@
     background-color: dimgrey;
 }
 
+.texto {
+    font-size: large;
+    text-align: justify;
+}
+
+.cc {
+    color: rgb(202, 17, 17);
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+}
+
+.texto-projeto {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+
+    margin: 111px;
+}
+
+.imagem-projeto {
+    width: 250px;
+    height: 200px;
+
+    border: 3px solid black;
+    border-radius: 10%;
+}
+
+#corpo-habilidades {
+    height: 341px;
+}
+
+.habilidades {
+    color: black;
+    text-decoration: none;
+}
+
+.rodape {
+    background-color: dimgrey;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 44px;
+}
+
+.contato {
+    background-color: dimgrey;
+
+    margin: 12px 0px 0px 5px;
+}
+
+.links {
+    height: 40px;
+    width: 40px;
+
+    /*margin: 2px 10px 0px 10px;*/
+
+    background-color: dimgrey;
+}
+
+.final {
+    background-color: dimgrey;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
