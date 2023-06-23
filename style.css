@@ -135,3 +135,18 @@
     justify-content: space-between;
     gap: 5px;
 }
+
+@media only screen and (max-width: 414px) {
+    .botoes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #projeto_2 {
+        visibility: hidden;
+    }
+
+    #projeto_3 {
+        visibility: hidden;
+    }
+}
